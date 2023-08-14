@@ -1,6 +1,6 @@
 /*
 * Copyright 2020, @planetminguez
-* gcc dtree_patcher.c -o dtree_patcher -g
+* gcc stuff.c -o program -g
 */
 //
 #include <stdio.h>
