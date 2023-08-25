@@ -9,6 +9,6 @@ int main(int argc, char **argv){
     
         printf("\t\tPlanetminguez\n");
         printf("\t\tChange System mount as a ro to rw \n");
-        printf("\t\tChange System mount as a ro to rw..MR MINGUEZ\n");
+        printf("\t\tChange System mount as a ro to rw....\n");
         return 0;
     }
