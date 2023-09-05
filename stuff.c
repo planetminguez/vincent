@@ -1,4 +1,4 @@
-/*
+/*////just another test
 * Copyright 2020, @planetminguez
 * gcc stuff.c -o program -g
 */
