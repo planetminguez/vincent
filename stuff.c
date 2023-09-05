@@ -1,8 +1,8 @@
-/*////just another test
+/*
 * Copyright 2020, @planetminguez
 * gcc stuff.c -o program -g
 */
-//
+//Taking stuff out
 #include <stdio.h>
 
 int main(int argc, char **argv){
