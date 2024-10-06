@@ -3,6 +3,12 @@
 * gcc stuff.c -o program -g
 */
 //Taking stuff out
+
+#if defined(__linux) || defined(__APPLE__) || defined(__CYGWIN__)
+#include <sys/time.h>
+#endif
+
+
 #include <stdio.h>
 // test again
 int main(int argc, char **argv){
