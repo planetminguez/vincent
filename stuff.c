@@ -4,7 +4,7 @@
 */
 //Taking stuff out
 
-str2hex(int buflen, unsigned char *buf, const char *str)
+static int str2hex(int buflen, unsigned char *buf, const char *str)
 {
     unsigned char *ptr = buf;
     int seq = -1;
