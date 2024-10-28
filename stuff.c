@@ -4,6 +4,11 @@
 */
 //Taking stuff out
 
+// is image 65
+#define IS64(image) (*(uint8_t *)(image) & 1)
+// is it maccho
+#define MACHO(p) ((*(unsigned int *)(p) & ~1) == 0xfeedface)
+
 static int str2hex(int buflen, unsigned char *buf, const char *str)
 {
     unsigned char *ptr = buf;
